@@ -45,6 +45,20 @@
     border-radius: 50%;
     animation: needle 60s steps(60, end) 0s infinite;
   }
+  .imgg{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    left: 80px;
+    top: 75px;
+}
+.imgg>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
   @keyframes needle {
     0% {
       transform: rotate(90deg);
